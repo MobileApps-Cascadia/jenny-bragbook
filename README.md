@@ -8,8 +8,8 @@ This would really be a two part app, with an 'uploader' side, and a 'user' side.
 
 Users:
 
-  *Grandparents, or people with loved ones they want to keep up with
-  *A patient  uploader, who wants to share info with non web-savvy loved ones
+  +Grandparents, or people with loved ones they want to keep up with
+  +A patient  uploader, who wants to share info with non web-savvy loved ones
 Key Functionality:
 
 On the uploader side, the uploader would create their profile and be able to add pictures and update their kid's status from either their own phone or their computer.  Then the uploader would install the app on the user's phone (Grandma's phone, as I imagine it).  There would need to be some sort of permissions granted for security's sake.  The user could then simply hit the icon on their phone, and see and show off their grandkids.  All UI elements would be designed to be very simple and obvious to use, with clear labeling and large fonts.     
