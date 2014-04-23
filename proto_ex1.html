@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Prototype</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+    <style>
+    img.fullscreen {
+        max-height: 100%;
+        max-width: 100%;
+    }       
+    </style>
+</head>
+
+<body>
+<div data-role="page" id="photos">
+<header data-role="header">
+    <h1>Lew Girls</h1>
+</header>
+
+<article data-role="content">
+    <ul class="ui-grid-d" data-filter="true">
+        <li class="ui-block-a">
+            <a href="#miranda">
+                <h1>Miranda</h1>
+                <img src="miranda.jpg" class="fullscreen" alt="Miranda's pic" >
+                <p>Miranda is stationed at Pearl Harbor</p>
+            </a>
+        </li>
+        
+        <li class="ui-block-b">
+            <a href="#tenae">
+                <h1>Tenae</h1>
+                <img src="tenae.jpg" class="fullscreen" alt="Tenae's pic" >
+                <p>Tenae just finished her BA at UW</p>
+            </a>
+        </li>
+        
+        <li class="ui-block-c">
+            <a href="#chelsey">
+                <h1>Chelsey</h1>
+                <img src="images/20130824_194536.jpg" class="fullscreen" alt="Chelsey's pic">
+                <p>Chelsey is starting a new endeavor featuring her tailoring skills</p>
+            </a>
+        </li>
+        
+        <li class="ui-block-d">
+            <a href="#victoria">
+                <h1>Victoria</h1>
+                <img src="victoria.jpg" class="fullscreen" alt="Victoria's pic">
+                <p>Victoria is a freshman at Everett High School</p>
+            </a>
+        </li>
+        
+        <li class="ui-block-e">
+            <a href="#phaedra">
+                <h1>Phaedra</h1>
+                <img src="phaedra.jpg" class="fullscreen" alt="Phaedra's pic">
+                <p>Phaedra is a 7th grader at North Middle School</p>
+            </a>
+        </li>
+    </ul>
+    
+</article>
+<footer data-role="footer" data-position="fixed">
+    <nav data-role="navbar">
+        <ul>
+            <li> <a href="#home" data-icon= "home">home</a></li>
+            <li> <a href="#photos" data-icon= "grid">photos</a></li>
+            <li> <a href="#info" data-icon= "info">info</a></li>
+        </ul>
+    </nav>
+</footer>
+</div>
+
+<div data-role="page" id="home">
+<header data-role="header">
+    <h1>Lew Girls</h1>
+</header>
+
+<article data-role="content">
+    <ul data-role="listview" data-filter="true">
+        <li>
+            <a href="#miranda">
+                <h1>Miranda</h1>
+                <img src="miranda.jpg" class="fullscreen" alt="Miranda's pic" >
+                <p>Miranda is stationed at Pearl Harbor</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="#tenae">
+                <h1>Tenae</h1>
+                <img src="tenae.jpg" class="fullscreen" alt="Tenae's pic" >
+                <p>Tenae just finished her BA at UW</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="#chelsey">
+                <h1>Chelsey</h1>
+                <img src="images/20140401_161250.jpg" class="fullscreen" alt="Chelsey's pic">
+                <p>Chelsey is starting a new endeavor featuring her tailoring skills</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="#victoria">
+                <h1>Victoria</h1>
+                <img src="victoria.jpg" class="fullscreen" alt="Victoria's pic">
+                <p>Victoria is a freshman at Everett High School</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="#phaedra">
+                <h1>Phaedra</h1>
+                <img src="phaedra.jpg" class="fullscreen" alt="Phaedra's pic">
+                <p>Phaedra is a 7th grader at North Middle School</p>
+            </a>
+        </li>
+    </ul>
+    
+</article>
+<footer data-role="footer" data-position="fixed">
+    <nav data-role="navbar">
+        <ul>
+            <li> <a href="#home" data-icon= "home">home</a></li>
+            <li> <a href="#photos" data-icon= "grid">photos</a></li>
+            <li> <a href="#info" data-icon= "info">info</a></li>
+        </ul>
+    </nav>
+</footer>
+</div>
+
+<div data-role="page" id="miranda">
+ <header data-role="header">
+    <h1>Miranda Lew</h1>
+    <a href="#photos" data-icon="grid" data-iconpos="notext">Photos</a>
+ </header>   
+</div>
+
+<div data-role="page" id="tenae">
+ <header data-role="header">
+    <h1>Tenae Lew</h1>
+    <a href="#photos" data-icon="grid" data-iconpos="notext">Photos</a>
+ </header>   
+</div>
+
+<div data-role="page" id="chelsey">
+ <header data-role="header">
+    <h1>Chelsey Lew</h1>
+    <a href="#photos" data-icon="grid" data-iconpos="notext">Photos</a>
+ </header>   
+</div>
+
+<div data-role="page" id="victoria">
+ <header data-role="header">
+    <h1>Victoria Lew</h1>
+    <a href="#photos" data-icon="grid" data-iconpos="notext">Photos</a>
+ </header>   
+</div>
+
+<div data-role="page" id="phaedra">
+ <header data-role="header">
+    <h1>Phaedra Lew</h1>
+    <a href="#photos" data-icon="grid" data-iconpos="notext">Photos</a>
+ </header>   
+</div>
+
+</body>
+</html>
