@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Brag Book</title>
+    
+    
+        
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+        
+    <style>
+    img.fullscreen {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    li {
+        list-style: none;
+        margin: 5px;
+    }
+    </style>
+</head>
+
+<body>
+    
+<div data-role="page" id="home">
+<header data-role="header">
+    <h1>Grandma's Brag Book</h1>
+</header>
+
+<article data-role="content">
+    <ul data-role="listview" >
+        <li>
+            <a href="#jenny">
+                <h1>Jenny's kids</h1>
+                <img src="images/jenny_thumbnail.jpg" class="fullscreen" alt="Jenny's pic" >
+                <p>Touch here to see Jenny's family news!</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="#dwayne">
+                <h1>Dwayne's kids</h1>
+                <img src="images/dwayne_thumbnail.jpg" class="fullscreen" alt="Dwayne's pic" >
+                <p>Touch here to see Dwayne's family news!</p>
+            </a>
+        </li>
+        
+       
+    </ul>
+    
+</article>
+<footer data-role="footer" data-position="fixed">
+    <nav data-role="navbar">
+        <ul>
+            <li> <a href="#home" data-icon= "home">home</a></li>
+            
+            <li> <a href="#info" data-icon= "info">settings</a></li>
+        </ul>
+    </nav>
+</footer>
+</div>
+
+
+<div data-role="page" id="jenny">
+<header data-role="header">
+    <h1>Jenny's kids</h1>
+</header>
+
+<article data-role="content">
+    <ul class="ui-grid-b" data-filter="true">
+
+        
+        <li class="ui-block-a">
+            <a href="#tenae">
+                <h1>Tenae</h1>
+                <img src="images/tenae_thumbnail.jpg" class="fullscreen" alt="Tenae's pic" >
+                
+            </a>
+        </li>
+        
+        <li class="ui-block-b">
+            <a href="#chelsey">
+                <h1>Chelsey</h1>
+                <img src="images/chelsey_thumbnail.jpg" class="fullscreen" alt="Chelsey's pic">
+                
+            </a>
+        </li>
+        
+        <li class="ui-block-c">
+            <a href="#victoria">
+                <h1>Victoria</h1>
+                <img src="images/victoria_thumbnail.jpg" class="fullscreen" alt="Victoria's pic">
+              
+            </a>
+        </li>
+        
+
+    </ul>
+    
+</article>
+<footer data-role="footer" data-position="fixed">
+    <nav data-role="navbar">
+        <ul>
+            <li> <a href="#home" data-icon= "home">home</a></li>
+            
+            <li> <a href="#info" data-icon= "info">settings</a></li>
+        </ul>
+    </nav>
+</footer>
+</div>
+
+
+
+<div data-role="page" id="tenae">
+ <header data-role="header">
+    <h1>Tenae Lew</h1>
+    
+ </header>
+ 
+ <article>
+
+    <p>Tenae just graduated from UW with her finance degree, and is working full time at Soltera Systems.</p>
+    <img src="images/tenae.jpg" class="fullscreen" alt="Tenaes's pic" >
+</article>
+<footer data-role="footer" data-position="fixed">
+    <nav data-role="navbar">
+        <ul>
+            <li> <a href="#home" data-icon= "home">home</a></li>
+            
+            <li> <a href="#jenny" data-icon= "info">Jenny's Kids</a></li>
+        </ul>
+    </nav>
+</footer> 
+ 
+</div>
+
+<div data-role="page" id="chelsey">
+ <header data-role="header">
+    <h1>Chelsey Lew</h1>
+    
+ </header>
+ 
+ <article>
+
+    <p>Chelsey has been making fresh pasta.  For this batch, she used fresh duck eggs.</p>
+    <img src="images/chelsey.jpg" class="fullscreen" alt="Chelsey's pic" >
+</article>
+<footer data-role="footer" data-position="fixed">
+    <nav data-role="navbar">
+        <ul>
+            <li> <a href="#home" data-icon= "home">home</a></li>
+            
+            <li> <a href="#jenny" data-icon= "info">Jenny's Kids</a></li>
+        </ul>
+    </nav>
+</footer> 
+ 
+</div>
+
+<div data-role="page" id="victoria">
+ <header data-role="header">
+    <h1>Victoria Lew</h1>
+    
+ </header>
+ 
+ <article>
+
+    <p>Victoria just earned an award as the Drama Scholar of the month of March! Keep up the good work, Tori!</p>
+    <img src="images/victoria.jpg" class="fullscreen" alt="Victoria's pic" >
+</article>
+<footer data-role="footer" data-position="fixed">
+    <nav data-role="navbar">
+        <ul>
+            <li> <a href="#home" data-icon= "home">home</a></li>
+            
+            <li> <a href="#jenny" data-icon= "info">Jenny's Kids</a></li>
+        </ul>
+    </nav>
+</footer> 
+ 
+</div>
+
+
+</body>
+</html>
