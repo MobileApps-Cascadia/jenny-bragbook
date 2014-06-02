@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BragBook</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login_page">LoginPage</string>
+    <string name="title_activity_create_account">CreateAccount</string>
+    <string name="title_activity_the_actual_login_page">TheActualLoginPage</string>
+    <string name="title_activity_manage_account_page">ManageAccountPage</string>
+    <string name="title_activity_view_pictures">ViewPictures</string>
+    <string name="title_activity_upload_picture">UploadPicture</string>
+
+</resources>
