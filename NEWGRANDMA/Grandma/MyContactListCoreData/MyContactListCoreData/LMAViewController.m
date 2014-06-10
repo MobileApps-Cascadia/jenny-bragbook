@@ -16,12 +16,7 @@
 
 @implementation LMAViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    //UIScrollView *tempScrollView=(UIScrollView *)self.view;
-}
+
 
 
 - (void)didReceiveMemoryWarning

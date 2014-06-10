@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF85487C19468259009D7358 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF85487B19468259009D7358 /* Foundation.framework */; };
+		EF85487E19468259009D7358 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF85487D19468259009D7358 /* CoreGraphics.framework */; };
+		EF85488019468259009D7358 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF85487F19468259009D7358 /* UIKit.framework */; };
+		EF85488219468259009D7358 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF85488119468259009D7358 /* CoreData.framework */; };
+		EF85488819468259009D7358 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF85488619468259009D7358 /* InfoPlist.strings */; };
+		EF85488A19468259009D7358 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85488919468259009D7358 /* main.m */; };
+		EF85488E19468259009D7358 /* LMAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85488D19468259009D7358 /* LMAAppDelegate.m */; };
+		EF85489119468259009D7358 /* MyContactListCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF85488F19468259009D7358 /* MyContactListCoreData.xcdatamodeld */; };
+		EF85489A19468259009D7358 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF85489919468259009D7358 /* XCTest.framework */; };
+		EF85489B19468259009D7358 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF85487B19468259009D7358 /* Foundation.framework */; };
+		EF85489C19468259009D7358 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF85487F19468259009D7358 /* UIKit.framework */; };
+		EF85489D19468259009D7358 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF85488119468259009D7358 /* CoreData.framework */; };
+		EF8548A519468259009D7358 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF8548A319468259009D7358 /* InfoPlist.strings */; };
+		EF8548A719468259009D7358 /* MyContactListCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8548A619468259009D7358 /* MyContactListCoreDataTests.m */; };
+		EF8548B21946845E009D7358 /* LMAcontactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8548B11946845E009D7358 /* LMAcontactsController.m */; };
+		EF8548B519468481009D7358 /* LMAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8548B419468481009D7358 /* LMAViewController.m */; };
+		EF8548B719468489009D7358 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8548B619468489009D7358 /* Main.storyboard */; };
+		EF8548B9194688CE009D7358 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8548B8194688CE009D7358 /* Images.xcassets */; };
+		EF8548BB19468961009D7358 /* BragBookIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8548BA19468961009D7358 /* BragBookIcon.png */; };
+		EF8548BD19468992009D7358 /* My Den pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8548BC19468992009D7358 /* My Den pic.jpg */; };
+		EF8548BF19468998009D7358 /* victoria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8548BE19468998009D7358 /* victoria.jpg */; };
+		EF8548C2194689A5009D7358 /* phaedra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8548C1194689A5009D7358 /* phaedra.jpg */; };
+		EF8548C4194689B1009D7358 /* chelsey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8548C3194689B1009D7358 /* chelsey.jpg */; };
+		EF8548C6194689BF009D7358 /* tenae.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8548C5194689BF009D7358 /* tenae.jpg */; };
+		EF8548C8194689C8009D7358 /* dwayne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8548C7194689C8009D7358 /* dwayne.jpg */; };
+		EF8548CA194689DA009D7358 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8548C9194689DA009D7358 /* 1.png */; };
+		EF8548CC194689E2009D7358 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8548CB194689E2009D7358 /* 3.png */; };
+		EF8548CE194689FC009D7358 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8548CD194689FC009D7358 /* icon.png */; };
+		EF8548D019468A0E009D7358 /* Grandma-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF8548CF19468A0E009D7358 /* Grandma-Info.plist */; };
+		EF8548D319468BB1009D7358 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8548D219468BB1009D7358 /* Account.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF85489E19468259009D7358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF85487019468259009D7358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF85487719468259009D7358;
+			remoteInfo = MyContactListCoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF85487819468259009D7358 /* MyContactListCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyContactListCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF85487B19468259009D7358 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF85487D19468259009D7358 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF85487F19468259009D7358 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF85488119468259009D7358 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EF85488519468259009D7358 /* MyContactListCoreData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyContactListCoreData-Info.plist"; sourceTree = "<group>"; };
+		EF85488719468259009D7358 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF85488919468259009D7358 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF85488B19468259009D7358 /* MyContactListCoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyContactListCoreData-Prefix.pch"; sourceTree = "<group>"; };
+		EF85488C19468259009D7358 /* LMAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMAAppDelegate.h; sourceTree = "<group>"; };
+		EF85488D19468259009D7358 /* LMAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMAAppDelegate.m; sourceTree = "<group>"; };
+		EF85489019468259009D7358 /* MyContactListCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyContactListCoreData.xcdatamodel; sourceTree = "<group>"; };
+		EF85489819468259009D7358 /* MyContactListCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyContactListCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF85489919468259009D7358 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF8548A219468259009D7358 /* MyContactListCoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyContactListCoreDataTests-Info.plist"; sourceTree = "<group>"; };
+		EF8548A419468259009D7358 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF8548A619468259009D7358 /* MyContactListCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyContactListCoreDataTests.m; sourceTree = "<group>"; };
+		EF8548B01946843F009D7358 /* LMAcontactsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMAcontactsController.h; sourceTree = "<group>"; };
+		EF8548B11946845E009D7358 /* LMAcontactsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAcontactsController.m; sourceTree = "<group>"; };
+		EF8548B319468474009D7358 /* LMAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMAViewController.h; sourceTree = "<group>"; };
+		EF8548B419468481009D7358 /* LMAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAViewController.m; sourceTree = "<group>"; };
+		EF8548B619468489009D7358 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EF8548B8194688CE009D7358 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF8548BA19468961009D7358 /* BragBookIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BragBookIcon.png; sourceTree = "<group>"; };
+		EF8548BC19468992009D7358 /* My Den pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "My Den pic.jpg"; sourceTree = "<group>"; };
+		EF8548BE19468998009D7358 /* victoria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = victoria.jpg; sourceTree = "<group>"; };
+		EF8548C0194689A0009D7358 /* Grandma-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Grandma-Prefix.pch"; sourceTree = "<group>"; };
+		EF8548C1194689A5009D7358 /* phaedra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phaedra.jpg; sourceTree = "<group>"; };
+		EF8548C3194689B1009D7358 /* chelsey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chelsey.jpg; sourceTree = "<group>"; };
+		EF8548C5194689BF009D7358 /* tenae.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tenae.jpg; sourceTree = "<group>"; };
+		EF8548C7194689C8009D7358 /* dwayne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dwayne.jpg; sourceTree = "<group>"; };
+		EF8548C9194689DA009D7358 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		EF8548CB194689E2009D7358 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		EF8548CD194689FC009D7358 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		EF8548CF19468A0E009D7358 /* Grandma-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Grandma-Info.plist"; sourceTree = "<group>"; };
+		EF8548D119468BB1009D7358 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		EF8548D219468BB1009D7358 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF85487519468259009D7358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF85487E19468259009D7358 /* CoreGraphics.framework in Frameworks */,
+				EF85488219468259009D7358 /* CoreData.framework in Frameworks */,
+				EF85488019468259009D7358 /* UIKit.framework in Frameworks */,
+				EF85487C19468259009D7358 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF85489519468259009D7358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF85489A19468259009D7358 /* XCTest.framework in Frameworks */,
+				EF85489D19468259009D7358 /* CoreData.framework in Frameworks */,
+				EF85489C19468259009D7358 /* UIKit.framework in Frameworks */,
+				EF85489B19468259009D7358 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF85486F19468259009D7358 = {
+			isa = PBXGroup;
+			children = (
+				EF85488319468259009D7358 /* MyContactListCoreData */,
+				EF8548A019468259009D7358 /* MyContactListCoreDataTests */,
+				EF85487A19468259009D7358 /* Frameworks */,
+				EF85487919468259009D7358 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF85487919468259009D7358 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF85487819468259009D7358 /* MyContactListCoreData.app */,
+				EF85489819468259009D7358 /* MyContactListCoreDataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF85487A19468259009D7358 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF85487B19468259009D7358 /* Foundation.framework */,
+				EF85487D19468259009D7358 /* CoreGraphics.framework */,
+				EF85487F19468259009D7358 /* UIKit.framework */,
+				EF85488119468259009D7358 /* CoreData.framework */,
+				EF85489919468259009D7358 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF85488319468259009D7358 /* MyContactListCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				EF85488C19468259009D7358 /* LMAAppDelegate.h */,
+				EF85488D19468259009D7358 /* LMAAppDelegate.m */,
+				EF85488F19468259009D7358 /* MyContactListCoreData.xcdatamodeld */,
+				EF8548D119468BB1009D7358 /* Account.h */,
+				EF8548D219468BB1009D7358 /* Account.m */,
+				EF8548B319468474009D7358 /* LMAViewController.h */,
+				EF8548B419468481009D7358 /* LMAViewController.m */,
+				EF8548B8194688CE009D7358 /* Images.xcassets */,
+				EF8548B619468489009D7358 /* Main.storyboard */,
+				EF8548B01946843F009D7358 /* LMAcontactsController.h */,
+				EF8548B11946845E009D7358 /* LMAcontactsController.m */,
+				EF8548C9194689DA009D7358 /* 1.png */,
+				EF8548BA19468961009D7358 /* BragBookIcon.png */,
+				EF8548CB194689E2009D7358 /* 3.png */,
+				EF85488419468259009D7358 /* Supporting Files */,
+			);
+			path = MyContactListCoreData;
+			sourceTree = "<group>";
+		};
+		EF85488419468259009D7358 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF85488519468259009D7358 /* MyContactListCoreData-Info.plist */,
+				EF85488619468259009D7358 /* InfoPlist.strings */,
+				EF8548C7194689C8009D7358 /* dwayne.jpg */,
+				EF8548C3194689B1009D7358 /* chelsey.jpg */,
+				EF8548BC19468992009D7358 /* My Den pic.jpg */,
+				EF8548BE19468998009D7358 /* victoria.jpg */,
+				EF8548C1194689A5009D7358 /* phaedra.jpg */,
+				EF8548CF19468A0E009D7358 /* Grandma-Info.plist */,
+				EF8548C0194689A0009D7358 /* Grandma-Prefix.pch */,
+				EF8548CD194689FC009D7358 /* icon.png */,
+				EF8548C5194689BF009D7358 /* tenae.jpg */,
+				EF85488919468259009D7358 /* main.m */,
+				EF85488B19468259009D7358 /* MyContactListCoreData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF8548A019468259009D7358 /* MyContactListCoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF8548A619468259009D7358 /* MyContactListCoreDataTests.m */,
+				EF8548A119468259009D7358 /* Supporting Files */,
+			);
+			path = MyContactListCoreDataTests;
+			sourceTree = "<group>";
+		};
+		EF8548A119468259009D7358 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF8548A219468259009D7358 /* MyContactListCoreDataTests-Info.plist */,
+				EF8548A319468259009D7358 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF85487719468259009D7358 /* MyContactListCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8548AA19468259009D7358 /* Build configuration list for PBXNativeTarget "MyContactListCoreData" */;
+			buildPhases = (
+				EF85487419468259009D7358 /* Sources */,
+				EF85487519468259009D7358 /* Frameworks */,
+				EF85487619468259009D7358 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyContactListCoreData;
+			productName = MyContactListCoreData;
+			productReference = EF85487819468259009D7358 /* MyContactListCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF85489719468259009D7358 /* MyContactListCoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8548AD19468259009D7358 /* Build configuration list for PBXNativeTarget "MyContactListCoreDataTests" */;
+			buildPhases = (
+				EF85489419468259009D7358 /* Sources */,
+				EF85489519468259009D7358 /* Frameworks */,
+				EF85489619468259009D7358 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF85489F19468259009D7358 /* PBXTargetDependency */,
+			);
+			name = MyContactListCoreDataTests;
+			productName = MyContactListCoreDataTests;
+			productReference = EF85489819468259009D7358 /* MyContactListCoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF85487019468259009D7358 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LMA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Yitref, Almaz";
+				TargetAttributes = {
+					EF85489719468259009D7358 = {
+						TestTargetID = EF85487719468259009D7358;
+					};
+				};
+			};
+			buildConfigurationList = EF85487319468259009D7358 /* Build configuration list for PBXProject "MyContactListCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF85486F19468259009D7358;
+			productRefGroup = EF85487919468259009D7358 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF85487719468259009D7358 /* MyContactListCoreData */,
+				EF85489719468259009D7358 /* MyContactListCoreDataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF85487619468259009D7358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8548CE194689FC009D7358 /* icon.png in Resources */,
+				EF8548D019468A0E009D7358 /* Grandma-Info.plist in Resources */,
+				EF8548CA194689DA009D7358 /* 1.png in Resources */,
+				EF8548B9194688CE009D7358 /* Images.xcassets in Resources */,
+				EF85488819468259009D7358 /* InfoPlist.strings in Resources */,
+				EF8548CC194689E2009D7358 /* 3.png in Resources */,
+				EF8548C2194689A5009D7358 /* phaedra.jpg in Resources */,
+				EF8548BF19468998009D7358 /* victoria.jpg in Resources */,
+				EF8548B719468489009D7358 /* Main.storyboard in Resources */,
+				EF8548BB19468961009D7358 /* BragBookIcon.png in Resources */,
+				EF8548BD19468992009D7358 /* My Den pic.jpg in Resources */,
+				EF8548C4194689B1009D7358 /* chelsey.jpg in Resources */,
+				EF8548C6194689BF009D7358 /* tenae.jpg in Resources */,
+				EF8548C8194689C8009D7358 /* dwayne.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF85489619468259009D7358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8548A519468259009D7358 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF85487419468259009D7358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF85488A19468259009D7358 /* main.m in Sources */,
+				EF85489119468259009D7358 /* MyContactListCoreData.xcdatamodeld in Sources */,
+				EF8548B519468481009D7358 /* LMAViewController.m in Sources */,
+				EF8548D319468BB1009D7358 /* Account.m in Sources */,
+				EF85488E19468259009D7358 /* LMAAppDelegate.m in Sources */,
+				EF8548B21946845E009D7358 /* LMAcontactsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF85489419468259009D7358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8548A719468259009D7358 /* MyContactListCoreDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF85489F19468259009D7358 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF85487719468259009D7358 /* MyContactListCoreData */;
+			targetProxy = EF85489E19468259009D7358 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF85488619468259009D7358 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF85488719468259009D7358 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF8548A319468259009D7358 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8548A419468259009D7358 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF8548A819468259009D7358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF8548A919468259009D7358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF8548AB19468259009D7358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyContactListCoreData/MyContactListCoreData-Prefix.pch";
+				INFOPLIST_FILE = "MyContactListCoreData/MyContactListCoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF8548AC19468259009D7358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyContactListCoreData/MyContactListCoreData-Prefix.pch";
+				INFOPLIST_FILE = "MyContactListCoreData/MyContactListCoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF8548AE19468259009D7358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyContactListCoreData.app/MyContactListCoreData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyContactListCoreData/MyContactListCoreData-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyContactListCoreDataTests/MyContactListCoreDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF8548AF19468259009D7358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyContactListCoreData.app/MyContactListCoreData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyContactListCoreData/MyContactListCoreData-Prefix.pch";
+				INFOPLIST_FILE = "MyContactListCoreDataTests/MyContactListCoreDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF85487319468259009D7358 /* Build configuration list for PBXProject "MyContactListCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8548A819468259009D7358 /* Debug */,
+				EF8548A919468259009D7358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8548AA19468259009D7358 /* Build configuration list for PBXNativeTarget "MyContactListCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8548AB19468259009D7358 /* Debug */,
+				EF8548AC19468259009D7358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF8548AD19468259009D7358 /* Build configuration list for PBXNativeTarget "MyContactListCoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8548AE19468259009D7358 /* Debug */,
+				EF8548AF19468259009D7358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF85488F19468259009D7358 /* MyContactListCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF85489019468259009D7358 /* MyContactListCoreData.xcdatamodel */,
+			);
+			currentVersion = EF85489019468259009D7358 /* MyContactListCoreData.xcdatamodel */;
+			path = MyContactListCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF85487019468259009D7358 /* Project object */;
+}

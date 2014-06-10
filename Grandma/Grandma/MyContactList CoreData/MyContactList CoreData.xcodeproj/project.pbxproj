@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF85480B194668F5009D7358 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF85480A194668F5009D7358 /* Foundation.framework */; };
+		EF85480D194668F5009D7358 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF85480C194668F5009D7358 /* CoreGraphics.framework */; };
+		EF85480F194668F5009D7358 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF85480E194668F5009D7358 /* UIKit.framework */; };
+		EF854811194668F5009D7358 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF854810194668F5009D7358 /* CoreData.framework */; };
+		EF854817194668F5009D7358 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF854815194668F5009D7358 /* InfoPlist.strings */; };
+		EF854819194668F5009D7358 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF854818194668F5009D7358 /* main.m */; };
+		EF85481D194668F5009D7358 /* LMAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85481C194668F5009D7358 /* LMAAppDelegate.m */; };
+		EF854820194668F5009D7358 /* MyContactList_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF85481E194668F5009D7358 /* MyContactList_CoreData.xcdatamodeld */; };
+		EF854822194668F5009D7358 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF854821194668F5009D7358 /* Images.xcassets */; };
+		EF854829194668F5009D7358 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF854828194668F5009D7358 /* XCTest.framework */; };
+		EF85482A194668F5009D7358 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF85480A194668F5009D7358 /* Foundation.framework */; };
+		EF85482B194668F5009D7358 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF85480E194668F5009D7358 /* UIKit.framework */; };
+		EF85482C194668F5009D7358 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF854810194668F5009D7358 /* CoreData.framework */; };
+		EF854834194668F5009D7358 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF854832194668F5009D7358 /* InfoPlist.strings */; };
+		EF854836194668F5009D7358 /* MyContactList_CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF854835194668F5009D7358 /* MyContactList_CoreDataTests.m */; };
+		EF85484119466A2B009D7358 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85484019466A2B009D7358 /* Account.m */; };
+		EF85484419466BAD009D7358 /* LMADateController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85484319466BAD009D7358 /* LMADateController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF85482D194668F5009D7358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF8547FF194668F5009D7358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF854806194668F5009D7358;
+			remoteInfo = "MyContactList CoreData";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF854807194668F5009D7358 /* MyContactList CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyContactList CoreData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF85480A194668F5009D7358 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF85480C194668F5009D7358 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF85480E194668F5009D7358 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF854810194668F5009D7358 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EF854814194668F5009D7358 /* MyContactList CoreData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyContactList CoreData-Info.plist"; sourceTree = "<group>"; };
+		EF854816194668F5009D7358 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF854818194668F5009D7358 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF85481A194668F5009D7358 /* MyContactList CoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyContactList CoreData-Prefix.pch"; sourceTree = "<group>"; };
+		EF85481B194668F5009D7358 /* LMAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMAAppDelegate.h; sourceTree = "<group>"; };
+		EF85481C194668F5009D7358 /* LMAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMAAppDelegate.m; sourceTree = "<group>"; };
+		EF85481F194668F5009D7358 /* MyContactList_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyContactList_CoreData.xcdatamodel; sourceTree = "<group>"; };
+		EF854821194668F5009D7358 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF854827194668F5009D7358 /* MyContactList CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyContactList CoreDataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF854828194668F5009D7358 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF854831194668F5009D7358 /* MyContactList CoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyContactList CoreDataTests-Info.plist"; sourceTree = "<group>"; };
+		EF854833194668F5009D7358 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF854835194668F5009D7358 /* MyContactList_CoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyContactList_CoreDataTests.m; sourceTree = "<group>"; };
+		EF85483F19466A2B009D7358 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		EF85484019466A2B009D7358 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		EF85484219466BAD009D7358 /* LMADateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMADateController.h; sourceTree = "<group>"; };
+		EF85484319466BAD009D7358 /* LMADateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMADateController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF854804194668F5009D7358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF85480D194668F5009D7358 /* CoreGraphics.framework in Frameworks */,
+				EF854811194668F5009D7358 /* CoreData.framework in Frameworks */,
+				EF85480F194668F5009D7358 /* UIKit.framework in Frameworks */,
+				EF85480B194668F5009D7358 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF854824194668F5009D7358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF854829194668F5009D7358 /* XCTest.framework in Frameworks */,
+				EF85482C194668F5009D7358 /* CoreData.framework in Frameworks */,
+				EF85482B194668F5009D7358 /* UIKit.framework in Frameworks */,
+				EF85482A194668F5009D7358 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF8547FE194668F5009D7358 = {
+			isa = PBXGroup;
+			children = (
+				EF854812194668F5009D7358 /* MyContactList CoreData */,
+				EF85482F194668F5009D7358 /* MyContactList CoreDataTests */,
+				EF854809194668F5009D7358 /* Frameworks */,
+				EF854808194668F5009D7358 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF854808194668F5009D7358 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF854807194668F5009D7358 /* MyContactList CoreData.app */,
+				EF854827194668F5009D7358 /* MyContactList CoreDataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF854809194668F5009D7358 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF85480A194668F5009D7358 /* Foundation.framework */,
+				EF85480C194668F5009D7358 /* CoreGraphics.framework */,
+				EF85480E194668F5009D7358 /* UIKit.framework */,
+				EF854810194668F5009D7358 /* CoreData.framework */,
+				EF854828194668F5009D7358 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF854812194668F5009D7358 /* MyContactList CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				EF85481B194668F5009D7358 /* LMAAppDelegate.h */,
+				EF85481C194668F5009D7358 /* LMAAppDelegate.m */,
+				EF854821194668F5009D7358 /* Images.xcassets */,
+				EF85481E194668F5009D7358 /* MyContactList_CoreData.xcdatamodeld */,
+				EF85483F19466A2B009D7358 /* Account.h */,
+				EF85484019466A2B009D7358 /* Account.m */,
+				EF854813194668F5009D7358 /* Supporting Files */,
+				EF85484219466BAD009D7358 /* LMADateController.h */,
+				EF85484319466BAD009D7358 /* LMADateController.m */,
+			);
+			path = "MyContactList CoreData";
+			sourceTree = "<group>";
+		};
+		EF854813194668F5009D7358 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF854814194668F5009D7358 /* MyContactList CoreData-Info.plist */,
+				EF854815194668F5009D7358 /* InfoPlist.strings */,
+				EF854818194668F5009D7358 /* main.m */,
+				EF85481A194668F5009D7358 /* MyContactList CoreData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF85482F194668F5009D7358 /* MyContactList CoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF854835194668F5009D7358 /* MyContactList_CoreDataTests.m */,
+				EF854830194668F5009D7358 /* Supporting Files */,
+			);
+			path = "MyContactList CoreDataTests";
+			sourceTree = "<group>";
+		};
+		EF854830194668F5009D7358 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF854831194668F5009D7358 /* MyContactList CoreDataTests-Info.plist */,
+				EF854832194668F5009D7358 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF854806194668F5009D7358 /* MyContactList CoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF854839194668F5009D7358 /* Build configuration list for PBXNativeTarget "MyContactList CoreData" */;
+			buildPhases = (
+				EF854803194668F5009D7358 /* Sources */,
+				EF854804194668F5009D7358 /* Frameworks */,
+				EF854805194668F5009D7358 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyContactList CoreData";
+			productName = "MyContactList CoreData";
+			productReference = EF854807194668F5009D7358 /* MyContactList CoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF854826194668F5009D7358 /* MyContactList CoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF85483C194668F5009D7358 /* Build configuration list for PBXNativeTarget "MyContactList CoreDataTests" */;
+			buildPhases = (
+				EF854823194668F5009D7358 /* Sources */,
+				EF854824194668F5009D7358 /* Frameworks */,
+				EF854825194668F5009D7358 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF85482E194668F5009D7358 /* PBXTargetDependency */,
+			);
+			name = "MyContactList CoreDataTests";
+			productName = "MyContactList CoreDataTests";
+			productReference = EF854827194668F5009D7358 /* MyContactList CoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF8547FF194668F5009D7358 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LMA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Yitref, Almaz";
+				TargetAttributes = {
+					EF854826194668F5009D7358 = {
+						TestTargetID = EF854806194668F5009D7358;
+					};
+				};
+			};
+			buildConfigurationList = EF854802194668F5009D7358 /* Build configuration list for PBXProject "MyContactList CoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF8547FE194668F5009D7358;
+			productRefGroup = EF854808194668F5009D7358 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF854806194668F5009D7358 /* MyContactList CoreData */,
+				EF854826194668F5009D7358 /* MyContactList CoreDataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF854805194668F5009D7358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF854817194668F5009D7358 /* InfoPlist.strings in Resources */,
+				EF854822194668F5009D7358 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF854825194668F5009D7358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF854834194668F5009D7358 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF854803194668F5009D7358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF854819194668F5009D7358 /* main.m in Sources */,
+				EF85484419466BAD009D7358 /* LMADateController.m in Sources */,
+				EF85484119466A2B009D7358 /* Account.m in Sources */,
+				EF854820194668F5009D7358 /* MyContactList_CoreData.xcdatamodeld in Sources */,
+				EF85481D194668F5009D7358 /* LMAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF854823194668F5009D7358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF854836194668F5009D7358 /* MyContactList_CoreDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF85482E194668F5009D7358 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF854806194668F5009D7358 /* MyContactList CoreData */;
+			targetProxy = EF85482D194668F5009D7358 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF854815194668F5009D7358 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF854816194668F5009D7358 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF854832194668F5009D7358 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF854833194668F5009D7358 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF854837194668F5009D7358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF854838194668F5009D7358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF85483A194668F5009D7358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyContactList CoreData/MyContactList CoreData-Prefix.pch";
+				INFOPLIST_FILE = "MyContactList CoreData/MyContactList CoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF85483B194668F5009D7358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyContactList CoreData/MyContactList CoreData-Prefix.pch";
+				INFOPLIST_FILE = "MyContactList CoreData/MyContactList CoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF85483D194668F5009D7358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyContactList CoreData.app/MyContactList CoreData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyContactList CoreData/MyContactList CoreData-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyContactList CoreDataTests/MyContactList CoreDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF85483E194668F5009D7358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyContactList CoreData.app/MyContactList CoreData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyContactList CoreData/MyContactList CoreData-Prefix.pch";
+				INFOPLIST_FILE = "MyContactList CoreDataTests/MyContactList CoreDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF854802194668F5009D7358 /* Build configuration list for PBXProject "MyContactList CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF854837194668F5009D7358 /* Debug */,
+				EF854838194668F5009D7358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF854839194668F5009D7358 /* Build configuration list for PBXNativeTarget "MyContactList CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF85483A194668F5009D7358 /* Debug */,
+				EF85483B194668F5009D7358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF85483C194668F5009D7358 /* Build configuration list for PBXNativeTarget "MyContactList CoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF85483D194668F5009D7358 /* Debug */,
+				EF85483E194668F5009D7358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF85481E194668F5009D7358 /* MyContactList_CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF85481F194668F5009D7358 /* MyContactList_CoreData.xcdatamodel */,
+			);
+			currentVersion = EF85481F194668F5009D7358 /* MyContactList_CoreData.xcdatamodel */;
+			path = MyContactList_CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF8547FF194668F5009D7358 /* Project object */;
+}

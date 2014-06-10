@@ -7,17 +7,15 @@
 //
 
 #import "LMAcontactsController.h"
-#import "LMADateController.h"
 
-
-
-@interface LMAcontactsController () <LMADateControllerDelegate>
+@interface LMAcontactsController ()
 
 @end
 
-
-
 @implementation LMAcontactsController
+
+
+
 
 -(IBAction)backgroundTap:(id)sender
 {
@@ -50,5 +48,4 @@
     
     
 }
-
 @end
