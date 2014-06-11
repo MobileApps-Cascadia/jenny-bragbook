@@ -582,10 +582,10 @@
             </objects>
             <point key="canvasLocation" x="1240" y="-2072"/>
         </scene>
-        <!--View Controller-->
+        <!--Picture View Controller-->
         <scene sceneID="o49-N9-ITe">
             <objects>
-                <viewController id="657-wk-wSy" sceneMemberID="viewController">
+                <viewController id="657-wk-wSy" customClass="LMAPictureViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7WC-2Q-AOu"/>
                         <viewControllerLayoutGuide type="bottom" id="ooZ-nm-Diy"/>
@@ -609,6 +609,30 @@
                                     <segue destination="ihs-xE-7mV" kind="push" id="4ex-ai-I9h"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r6b-SM-Gx4">
+                                <rect key="frame" x="40" y="274" width="240" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBu-UJ-Kop">
+                                <rect key="frame" x="20" y="215" width="88" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Take Picture">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="TakePhoto" destination="657-wk-wSy" eventType="touchUpInside" id="T4Q-Ya-8qH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIn-9f-dIh">
+                                <rect key="frame" x="159" y="215" width="115" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Choose Existing">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ChooseExisting" destination="657-wk-wSy" eventType="touchUpInside" id="dkj-QD-l2m"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -616,7 +640,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4db-rL-8Va" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="13" y="-1228"/>
+            <point key="canvasLocation" x="13" y="-816"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="sle-md-HMM">

@@ -26,13 +26,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    _scrollView.contentSize = CGSizeMake(320, 1500);
+    _scrollView.contentSize = CGSizeMake(320, 600);
 }
 
 
 - (void)viewDidLayoutSubviews
 {
-    _scrollView.contentSize = CGSizeMake(320, 1500);
+    _scrollView.contentSize = CGSizeMake(320, 600);
     
 }            
 

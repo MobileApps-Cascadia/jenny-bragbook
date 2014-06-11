@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88B747E21948BDC8004A0D33 /* LMAPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B747E11948BDC8004A0D33 /* LMAPictureViewController.m */; };
 		EF40FF201936A61D001E94EC /* My.sks in Resources */ = {isa = PBXBuildFile; fileRef = EF40FF1F1936A61D001E94EC /* My.sks */; };
 		EF40FF221936A9A2001E94EC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF40FF211936A9A2001E94EC /* icon.png */; };
 		EF40FF241936AB33001E94EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF40FF231936AB33001E94EC /* Images.xcassets */; };
@@ -48,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88B747E01948BDC8004A0D33 /* LMAPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAPictureViewController.h; sourceTree = "<group>"; };
+		88B747E11948BDC8004A0D33 /* LMAPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAPictureViewController.m; sourceTree = "<group>"; };
 		EF40FF1F1936A61D001E94EC /* My.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = My.sks; sourceTree = "<group>"; };
 		EF40FF211936A9A2001E94EC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		EF40FF231936AB33001E94EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -156,6 +159,8 @@
 				EFA576FD193FC7A200CD6433 /* LMAcontactsController.h */,
 				EFA576FE193FC7A200CD6433 /* LMAcontactsController.m */,
 				EFFAE7AB192D72E4005B50CE /* Supporting Files */,
+				88B747E01948BDC8004A0D33 /* LMAPictureViewController.h */,
+				88B747E11948BDC8004A0D33 /* LMAPictureViewController.m */,
 			);
 			path = Grandma;
 			sourceTree = "<group>";
@@ -307,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88B747E21948BDC8004A0D33 /* LMAPictureViewController.m in Sources */,
 				EFFAE7BB192D72E4005B50CE /* LMAViewController.m in Sources */,
 				EFFAE7B1192D72E4005B50CE /* main.m in Sources */,
 				EFFAE7B5192D72E4005B50CE /* LMAAppDelegate.m in Sources */,
