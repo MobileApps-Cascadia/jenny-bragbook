@@ -7,6 +7,8 @@
 //
 
 #import "LMAcontactsController.h"
+#import "LMAAppDelegate.h"
+#import "Member.h"
 
 @interface LMAcontactsController ()
 
@@ -45,7 +47,22 @@
 
 - (IBAction)enter:(id)sender {
     
-    
+
     
 }
+
+-(IBAction)saveUser:(id)sender
+{
+    LMAAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    NSManagedObjectContext *context = [appDelegate managedObjectContext];
+    Member *member = [NSEntityDescription
+                      insertNewObjectForEntityForName:@"Member"
+                      inManagedObjectContext:context];
+    [member setValue:_firstname forKey:@"firstName"];
+    [member setValue:_Lastname forKey:@"lastName"];
+    [member setValue:_username forKey:@"username"];
+    [member setValue:_password forKey:@"password"];
+    [member setValue:_email forKey:@"email"];
+}
+
 @end

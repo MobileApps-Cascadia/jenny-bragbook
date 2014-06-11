@@ -1,5 +1,5 @@
 //
-//  LMAPictureViewController.h
+//  LMAPictureTakerController.h
 //  Grandma
 //
 //  Created by Charlton, Adam M. on 6/11/14.
@@ -8,15 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LMAPictureViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@interface LMAPictureTakerController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 {
     UIImagePickerController *picker;
     UIImagePickerController *picker2;
     UIImage *image;
     IBOutlet UIImageView *imageView;
-}
+ }
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
--(IBAction)TakePhoto;
+-(IBAction)takePhoto;
 -(IBAction)ChooseExisting;
-
 @end

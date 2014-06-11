@@ -27,8 +27,9 @@
 @property (weak, nonatomic) IBOutlet UITextField *password;
 @property (weak, nonatomic) IBOutlet UITextField *email;
 
-@property (weak, nonatomic) IBOutlet UITextField *DOB;
 - (IBAction)enter:(id)sender;
+
+-(IBAction)saveUser:(id)sender;
 
 
 
