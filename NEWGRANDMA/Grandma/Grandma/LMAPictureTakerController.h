@@ -16,7 +16,9 @@
     IBOutlet UIImageView *imageView;
  }
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) IBOutlet UITextField *txtCaption;
 
+-(IBAction)backgroundTap:(id)sender;
 -(IBAction)takePhoto;
 -(IBAction)ChooseExisting;
 @end

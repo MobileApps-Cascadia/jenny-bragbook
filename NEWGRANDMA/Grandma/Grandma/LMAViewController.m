@@ -17,6 +17,10 @@
 @implementation LMAViewController
 
 
+-(IBAction)backgroundTap:(id)sender
+{
+    [self.view endEditing:YES];
+}
 
 
 - (void)didReceiveMemoryWarning

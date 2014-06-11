@@ -14,6 +14,15 @@
 
 @implementation LMAPictureTakerController
 
+
+-(IBAction)backgroundTap:(id)sender
+{
+    [self.view endEditing:YES];
+}
+
+
+
+//take my picture code
 -(IBAction)takePhoto
 {
     picker = [[UIImagePickerController alloc] init];
@@ -23,6 +32,7 @@
     
 }
 
+//choose from a library
 -(IBAction)ChooseExisting
 {
     picker2 = [[UIImagePickerController alloc] init];
@@ -32,6 +42,7 @@
     
 }
 
+//ran when finished picking a picture
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
     image = [info objectForKey:UIImagePickerControllerOriginalImage];
@@ -39,6 +50,7 @@
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
+//checks if done picking picture and closes the animation
 -(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
 {
     [self dismissViewControllerAnimated:YES completion:NULL];
@@ -55,7 +67,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     _scrollView.contentSize = CGSizeMake(320, 600);
-
 }
 
 - (void)didReceiveMemoryWarning

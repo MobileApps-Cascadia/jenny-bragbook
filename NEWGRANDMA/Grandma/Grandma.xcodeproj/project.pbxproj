@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		888424E11948E807000AEE86 /* LMAPictureTakerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888424E01948E807000AEE86 /* LMAPictureTakerController.m */; };
+		888424E41948F88C000AEE86 /* LMABirthdateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888424E31948F88C000AEE86 /* LMABirthdateController.m */; };
 		88E2AA141948D73500F91CE1 /* GrandmaDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88E2AA121948D73500F91CE1 /* GrandmaDatabase.xcdatamodeld */; };
 		88E2AA171948D92E00F91CE1 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E2AA161948D92E00F91CE1 /* Member.m */; };
 		88E2AA1D1948D96000F91CE1 /* Picture.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E2AA1C1948D96000F91CE1 /* Picture.m */; };
@@ -54,6 +55,8 @@
 /* Begin PBXFileReference section */
 		888424DF1948E807000AEE86 /* LMAPictureTakerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAPictureTakerController.h; sourceTree = "<group>"; };
 		888424E01948E807000AEE86 /* LMAPictureTakerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAPictureTakerController.m; sourceTree = "<group>"; };
+		888424E21948F88C000AEE86 /* LMABirthdateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMABirthdateController.h; sourceTree = "<group>"; };
+		888424E31948F88C000AEE86 /* LMABirthdateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMABirthdateController.m; sourceTree = "<group>"; };
 		88E2AA131948D73500F91CE1 /* GrandmaDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GrandmaDatabase.xcdatamodel; sourceTree = "<group>"; };
 		88E2AA151948D92E00F91CE1 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
 		88E2AA161948D92E00F91CE1 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
@@ -174,6 +177,8 @@
 				EFFAE7AB192D72E4005B50CE /* Supporting Files */,
 				888424DF1948E807000AEE86 /* LMAPictureTakerController.h */,
 				888424E01948E807000AEE86 /* LMAPictureTakerController.m */,
+				888424E21948F88C000AEE86 /* LMABirthdateController.h */,
+				888424E31948F88C000AEE86 /* LMABirthdateController.m */,
 			);
 			path = Grandma;
 			sourceTree = "<group>";
@@ -327,6 +332,7 @@
 			files = (
 				88E2AA1D1948D96000F91CE1 /* Picture.m in Sources */,
 				EFFAE7BB192D72E4005B50CE /* LMAViewController.m in Sources */,
+				888424E41948F88C000AEE86 /* LMABirthdateController.m in Sources */,
 				EFFAE7B1192D72E4005B50CE /* main.m in Sources */,
 				EFFAE7B5192D72E4005B50CE /* LMAAppDelegate.m in Sources */,
 				88E2AA171948D92E00F91CE1 /* Member.m in Sources */,

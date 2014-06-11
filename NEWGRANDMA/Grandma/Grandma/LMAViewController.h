@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface LMAViewController : UIViewController
+-(IBAction)backgroundTap:(id)sender;
+
 
 @end
